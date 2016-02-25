@@ -1,5 +1,8 @@
 # icat for JSON with Golang
 
+[![Build Status](https://travis-ci.org/spiegel-im-spiegel/icat4json.svg?branch=master)](https://travis-ci.org/spiegel-im-spiegel/icat4json)
+[![GitHub license](https://img.shields.io/badge/license-CC0-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/icat4json/master/LICENSE)
+
 ## Example
 
 ```go:sample.go
@@ -32,7 +35,7 @@ func main() {
 ```
 
 ```
-$ sample
+$ go run sample.go
 Title: IPAセキュリティセンター:重要なセキュリティ情報
   URL: https://www.ipa.go.jp/security/vuln/icat.html
  Date: 2016-02-10 11:58:22 +0900 JST
@@ -44,7 +47,6 @@ Items:
 	2016-01-13 12:00:00 +0900 JST: Adobe Reader および Acrobat の脆弱性対策について(APSB16-02)(CVE-2016-0932等) (http://www.ipa.go.jp/security/ciadr/vul/20160113-adobereader.html)
 	2016-01-06 16:40:00 +0900 JST: 【注意喚起】インターネットに接続する複合機等のオフィス機器の再点検を！ (http://www.ipa.go.jp/security/ciadr/vul/20160106-printer.html)
 	2016-01-05 14:00:00 +0900 JST: 「DXライブラリ」におけるバッファオーバーフローの脆弱性対策について(JVN#49476817) (http://www.ipa.go.jp/security/ciadr/vul/20160105-jvn.html)
-
 ```
 
 ## Reference
