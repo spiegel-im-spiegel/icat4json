@@ -103,7 +103,7 @@ func Get(tool string) (JSON, error) {
 	if err != nil {
 		return "", ErrAPI(err.Error())
 	}
-	j := JSON(string(body))
+	j := JSON(body)
 	if err := j.getError(); err != nil {
 		return j, err
 	}
