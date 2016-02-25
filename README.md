@@ -53,6 +53,7 @@ Items:
 
 - [サイバーセキュリティ注意喚起サービス「icat for JSON」：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/vuln/icat.html)
 - [icat for JSON について - Qiita](http://qiita.com/spiegel-im-spiegel/items/4acefe47d3dda688a03e)
+- [icat4json 公開 — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2016/02/icat4json/)
 
 ## License
 
